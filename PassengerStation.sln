@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassengerStation", "PassengerStation\PassengerStation.csproj", "{784E7F08-7AD6-4334-A145-6CCBCD0CC72C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PassengerStation", "PassengerStation\PassengerStation.csproj", "{784E7F08-7AD6-4334-A145-6CCBCD0CC72C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{78985ACF-F84F-4A8C-922D-55C629A632E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{389B3915-5FB0-4C28-A4AF-4F924E8D1920}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{784E7F08-7AD6-4334-A145-6CCBCD0CC72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{784E7F08-7AD6-4334-A145-6CCBCD0CC72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{784E7F08-7AD6-4334-A145-6CCBCD0CC72C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78985ACF-F84F-4A8C-922D-55C629A632E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78985ACF-F84F-4A8C-922D-55C629A632E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78985ACF-F84F-4A8C-922D-55C629A632E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78985ACF-F84F-4A8C-922D-55C629A632E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389B3915-5FB0-4C28-A4AF-4F924E8D1920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389B3915-5FB0-4C28-A4AF-4F924E8D1920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389B3915-5FB0-4C28-A4AF-4F924E8D1920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389B3915-5FB0-4C28-A4AF-4F924E8D1920}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
